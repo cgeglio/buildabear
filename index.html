@@ -14,43 +14,44 @@
       <section class="clothing-section">
         <div>
           <h2>Hats</h2>
-          <button>Top Hat</button>
-          <button>Sun Hat</button>
-          <button>Bow</button>
-          <button>Crown</button>
+          <button name="hats" value="tophat">Top Hat</button>
+          <button name="hats" value="sunhat">Sun Hat</button>
+          <button name="hats" value="hairbow">Bow</button>
+          <button name="hats" value="crown">Crown</button>
         </div>
         <div>
           <h2>Clothes</h2>
-          <button>T-Shirt</button>
-          <button>Dress</button>
-          <button>Tuxedo</button>
+          <button name="clothes" value="vest">Vest</button>
+          <button name="clothes" value="dress">Dress</button>
         </div>
         <div>
-          <h2>Accessories</h2>
-          <button>Necklace</button>
-          <button>Bowtie</button>
-          <button>Watch</button>
-          <button>Monocle</button>
-          <button>Earrings</button>
+          <h2>Tails</h2>
+          <button name="tails" value="fluffy">Fluffy Tail</button>
+          <button name="tails" value="skinny">Tabby Tail</button>
+          <button name="tails" value="bunny">Bunny Tail</button>
         </div>
         <div>
           <h2>Backgrounds</h2>
-          <button>Blue</button>
-          <button>Park</button>
-          <button>Beach</button>
-          <button>Space</button>
-          <button>Yellow</button>
-          <button>Hearts</button>
+          <button name="background" value="park">Park</button>
+          <button name="background" value="beach">Beach</button>
+          <button name="background" value="outerspace">Space</button>
+          <button name="background" value="hearts">Hearts</button>
         </div>
       </section>
       <section class="center">
-        <img class="peanut"src="./assets/pnut.png" />
-        <textarea rows="1" cols="1" placeholder='Name this outfit...'></textarea>
-        <button>Save</button>
+        <div class="peanut-center"></div>
+        <img class="peanut" src="./assets/pnut.png" />
+        <div class="pnut-outfit">
+          <div class="hats-outfit"></div>
+          <div class="clothes-outfit"></div>
+          <div class="tails-outfit"></div>
+        </div>
+        <input type="text" placeholder='Name this outfit...'></input>
+        <button class='save'>Save</button>
       </section>
       <section>
         <h2>Saved Outfits</h2>
-        <div>Saved Labels</div>
+        <div class='saved-outfits'></div>
       </section>
     </main>
   </body>
