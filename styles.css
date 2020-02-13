@@ -41,21 +41,23 @@ button:hover {
 .clothing-section {
   display: flex;
   flex-direction: column;
-  width: 32%;
+  width: 300px;
 }
 
 .peanut {
-  border: 3px solid #FFBA79;
-  height: 500px;
-  margin-top: 100px;
-  width: 500px;
+  height: 500px !important;
 }
 
-textarea {
+input {
   border: 3px solid #FFBA79;
-  height: 30px;
-  margin-top: 10px;
+  height: 50px;
+  margin-top: 150px;
+  margin-bottom: 30px;
   width: 80%;
+}
+
+img {
+  position: absolute;
 }
 
 .center {
@@ -63,4 +65,57 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+}
+
+.pnut-outfit {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 500px;
+  width: 500px;
+  z-index: 5;
+}
+
+.hats-outfit {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.clothes-outfit {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 300px;
+}
+
+.tails-outfit {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.hats-outfit img {
+  height: 80px;
+}
+
+.clothes-outfit img {
+  height: 300px;
+}
+
+.tails-outfit img {
+  height: 100px;
+}
+
+.peanut-center {
+  background-image: url('');
+  height: 500px;
+  width: 500px;
+}
+
+.peanut-center img {
+  height: 500px;
+  margin-top: 130px;
+  margin-left: -20px;
 }
